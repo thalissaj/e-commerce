@@ -8,6 +8,8 @@ page('/:category/:id', product);
 page('/carrinho', showCard);
 page();
 
+$(document).ready(index);
+
 function index () {
   $(".category").removeClass("on-category");
   $("#index").html(renderIndex());
