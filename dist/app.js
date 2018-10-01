@@ -13,7 +13,7 @@ function erro() {
   throw new Error('FAIL!');
 }
 function renderIndex() {
-  return `<div class="index-container" style="background-image: url(../e-commerce/dist/img/happy_camel.jpg);">
+  return `<div class="index-container" style="background-image: url(/e-commerce/dist/img/happy_camel.jpg);">
             <div class="information">
               <p>Olá forasteir@!</p>
               <p>Com a ajuda de nossos itens você provavelmente sobreviverá ao deserto!</p>
