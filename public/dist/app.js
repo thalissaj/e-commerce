@@ -17,9 +17,11 @@ function getProducts(category) {
     crossDomain: true
   })
 }
+
 function erro() {
   throw new Error('FAIL!');
 }
+
 function renderIndex() {
   return `<div class="index-container" style="background-image: url(./dist/img/happy_camel.jpg);">
             <div class="information">
