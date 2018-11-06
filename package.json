@@ -19,6 +19,7 @@
   "homepage": "https://github.com/thalissaj/e-commerce#readme",
   "dependencies": {
     "express": "^4.16.3",
+    "page": "^1.11.2",
     "path": "^0.12.7"
   }
 }
